@@ -3,6 +3,7 @@ const wordSearch = function(letters, word) {
     const transposed = transpose(letters);
     return wordSearchHorizontal(transposed, word);
   }
+  return true;
 };
   
 const wordSearchHorizontal = (letters, word) => {
