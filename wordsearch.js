@@ -1,4 +1,4 @@
-const wordSearch = function (letters, word) {
+const wordSearch = function(letters, word) {
   if (wordSearchHorizontal(letters, word) === false) {
     const transposed = transpose(letters);
     return wordSearchHorizontal(transposed, word);
